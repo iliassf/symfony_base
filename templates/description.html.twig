@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+{% block title %}Noa aime les burgouz!{% endblock %}
+{% block body %}
+    <h5 class="card-title">{{ burgers["name"] }}  </h5>
+    <article>{{ burgers["description"] }}</article>
+    <img src="{{ burgers["img"] }}"/>
+{% endblock %}

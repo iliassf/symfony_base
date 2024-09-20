@@ -11,7 +11,11 @@
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
     </head>
+    <header><a href="https://8000-idx-symfonybasegit-1725624611442.cluster-6yqpn75caneccvva7hjo4uejgk.cloudworkstations.dev/">retourner à la page d'accueil</a></header>
     <body>
-        {% block body %}{% endblock %}
+        {% include '_header.html.twig' %}
+        {% block body %}
+        {% endblock %}
+        {% include '_footer.html.twig' %}
     </body>
 </html>
