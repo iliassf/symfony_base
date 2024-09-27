@@ -2,6 +2,8 @@
 
 namespace App\DataFixtures;
 
+use App\Entity\Commentaire;
+
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 

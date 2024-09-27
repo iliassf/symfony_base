@@ -2,11 +2,15 @@
 
 namespace App\DataFixtures;
 
+use App\Entity\Pain;
+
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
 class PainFixtures extends Fixture
 {
+    public const PAIN_REFERENCE = 'Pain';
+
     public function load(ObjectManager $manager): void
     {
         $nomsPains = [
